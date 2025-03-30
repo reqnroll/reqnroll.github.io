@@ -1,0 +1,48 @@
+---
+layout: page
+title: "News"
+permalink: /news/
+---
+
+<h2 class="wp-block-heading">Check out our recent news &amp; insights</h2>
+
+<div class="wp-block-query is-layout-flow wp-block-query-is-layout-flow">
+  <ul
+    class="columns-3 wp-block-post-template is-layout-grid wp-container-core-post-template-is-layout-1 wp-block-post-template-is-layout-grid">
+    {% for post in site.categories.News %}
+    <li
+      class="wp-block-post post-350 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
+
+      <div class="wp-block-group is-layout-flow wp-container-core-group-is-layout-7 wp-block-group-is-layout-flow"
+        style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px">
+        <figure style="height:200px; margin-bottom:var(--wp--preset--spacing--small);"
+          class="wp-block-post-featured-image"><a
+            href="{{ post.url | relative_url }}" target="_self"
+            style="height:200px"><img fetchpriority="high" decoding="async" width="1530" height="520"
+              src="{{ post.featured_image | prepend: '/assets/images/' | relative_url }}"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+              alt="SpecFlow end-of-life has been announced" style="border-radius:5px;height:200px;object-fit:cover;"
+              sizes="(max-width: 1530px) 100vw, 1530px"></a></figure>
+
+        <div class="taxonomy-category has-link-color wp-elements-82b5603708064b06546400967d8e01c5 wp-block-post-terms">
+          <a href="{{ site.url }}/news/" rel="tag">News</a></div>
+
+        <h5 style="margin-bottom:var(--wp--preset--spacing--x-small);" class="wp-block-post-title"><a
+            href="{{ post.url | relative_url }}" target="_self">{{ post.title }}</a></h5>
+
+
+        <div
+          class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6 wp-block-group-is-layout-flex">
+          <div class="wp-block-post-author-name has-x-small-font-size">{{ post.author }}</div>
+
+          <hr
+											class="wp-block-separator has-text-color has-highlight-color has-alpha-channel-opacity has-highlight-background-color has-background is-style-default wp-container-content-3">
+
+          <div class="wp-block-post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+        </div>
+      </div>
+
+    </li>
+    {% endfor %}
+    </ul>
+</div>

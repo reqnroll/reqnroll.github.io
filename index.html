@@ -398,7 +398,7 @@ layout: base
 									{% for category in post.categories %}
 										<div
 											class="taxonomy-category has-link-color wp-elements-82b5603708064b06546400967d8e01c5 wp-block-post-terms">
-											<a href="{{ site.url }}/category/{{category}}/" rel="tag">{{category}}</a>
+											<a href="{{ site.url }}/{{ category | downcase }}/" rel="tag">{{category}}</a>
 										</div>
 									{% endfor %}									
 
@@ -414,7 +414,7 @@ layout: base
 										<hr
 											class="wp-block-separator has-text-color has-highlight-color has-alpha-channel-opacity has-highlight-background-color has-background is-style-default wp-container-content-3">
 
-										<div class="wp-block-post-date">{{ post.date | date: "%B %-d %Y" }}</div>
+										<div class="wp-block-post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
 									</div>
 								</div>
 							</li>
