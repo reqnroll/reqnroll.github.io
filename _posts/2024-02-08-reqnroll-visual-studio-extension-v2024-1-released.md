@@ -3,6 +3,7 @@ layout: post
 title: "Reqnroll Visual Studio Extension v2024.1 released"
 date: 2024-02-08
 categories: News
+tags: .NET BDD Cucumber extension release Reqnroll SpecFlow VisualStudio
 featured_image: 2024/backstage-jessie-mccall-2vfKU3bm8xM-unsplash.jpg
 featured_image_caption: "Photo by Jesse McCall on Unsplash.com"
 author: Gaspar Nagy

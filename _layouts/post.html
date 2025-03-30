@@ -38,6 +38,12 @@ layout: base
     {{ content }}
   </div>
 
+  <div class="taxonomy-post_tag is-style-swt-post-terms-pill wp-block-post-terms">
+    {% for tag in page.tags %}
+    <a href="#" rel="tag">{{ tag }}</a>{% if forloop.last == false %}<span class="wp-block-post-terms__separator">, </span>{% endif %}
+    {% endfor %}
+  </div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

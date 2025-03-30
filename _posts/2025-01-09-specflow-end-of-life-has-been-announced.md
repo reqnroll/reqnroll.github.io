@@ -3,6 +3,7 @@ layout: post
 title: "SpecFlow end-of-life has been announced"
 date: 2025-01-09
 categories: News
+tags: AzureDevOps GitHub LivingDoc migrate opensource Reqnroll SpecFlow VisualStudio
 featured_image: 2025/SF_dead.png
 featured_image_caption: "Screenshot from the specflow.org website"
 author: Gaspar Nagy

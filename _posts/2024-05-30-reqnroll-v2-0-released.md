@@ -3,6 +3,7 @@ layout: post
 title: "Reqnroll v2.0 released"
 date: 2024-05-30
 categories: News
+tags: .NET release Reqnroll
 featured_image: 2024/reqnroll-john-matychuk-gUK3lA3K7Yo-unsplash-scaled.jpg
 featured_image_caption: "Photo by John Matychuk on Unsplash.com"
 author: Gaspar Nagy
