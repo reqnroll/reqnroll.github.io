@@ -32,6 +32,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
+include: ['_pages']
 permalink: pretty
 defaults:
   - scope:
