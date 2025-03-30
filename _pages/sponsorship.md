@@ -11,7 +11,7 @@ We are thankful to our sponsors who support the Reqnroll open-source project. Re
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:image {"lightbox":{"enabled":false},"id":314,"scale":"cover","sizeSlug":"medium","linkDestination":"custom","align":"center"} -->
-<figure class="wp-block-image aligncenter size-medium"><a href="https://www.specsolutions.eu/"><img src="https://reqnroll.net/wp-content/uploads/2024/05/SpecSolution-logo-600-300x72.png" alt="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" class="wp-image-314" style="object-fit:cover" title="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website"/></a></figure>
+<figure class="wp-block-image aligncenter size-medium"><a href="https://www.specsolutions.eu/"><img src="{{ site.url }}/assets/images/SpecSolution-logo-600-300x72.png" alt="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" class="wp-image-314" style="object-fit:cover" title="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -28,7 +28,7 @@ We are thankful to our sponsors who support the Reqnroll open-source project. Re
 
 ### Silver Sponsors
 
-[![Info Support sponsors Reqnroll by $200 / mo](https://reqnroll.net/wp-content/uploads/2024/05/Info-Support-30cm-300DPI-PNG-300x100.png "Info Support sponsors Reqnroll by $200 / mo")](https://www.infosupport.com/)
+[![Info Support sponsors Reqnroll by $200 / mo]({{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-300x100.png "Info Support sponsors Reqnroll by $200 / mo")](https://www.infosupport.com/)
 
 **[Info Support](https://www.infosupport.com/)** sponsors Reqnroll by $200 / mo
 
