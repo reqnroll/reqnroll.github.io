@@ -3,11 +3,10 @@ layout: post
 title: "SpecFlow end-of-life has been announced"
 date: 2025-01-09
 categories: News
-image_name: SF_dead.png
+featured_image: 2025/SF_dead.png
+featured_image_caption: "Screenshot from the specflow.org website"
 author: Gaspar Nagy
 ---
-
-![SF Dead](/assets/images/SF_dead.png)
 
 In December 2024, Tricentis [announced **the end-of-life of the SpecFlow open source project**](https://support-hub.tricentis.com/open?number=NEW0001432&id=post). According to the announcement, SpecFlow reached its end-of-life on December 31, 2024. As of 1st January, the SpecFlow GitHub projects are deleted and the support section of the specflow.org website is disabled.
 
