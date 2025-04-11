@@ -1,0 +1,47 @@
+/*
+Theme Name: Kortez FSE
+Theme URI: https://kortezthemes.com/kortez-fse/
+Author: kortezthemes
+Author URI: https://kortezthemes.com
+Description: Kortez FSE is a WordPress block theme perfect for all kinds of business consulting services, such as business consulting, marketing consulting, advertising consulting, financial advisors, insurance brokers, investment consultants, accountant services, HR consulting and many more.
+Version: 1.0.2
+Requires at least: 6.0
+Tested up to: 6.3
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kortez-fse
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, education
+
+Kortez FSE WordPress Theme, Copyright 2023 kortezthemes
+Kortez FSE is distributed under the terms of the GNU General Public License v3
+*/
+
+/* Reset Default Blocks Gap */
+body.editor-styles-wrapper .wp-site-blocks > * {
+  	margin-block-start: 0;
+}
+.wp-site-blocks > * {
+  	margin-block-start: 0;
+}
+
+/* Support Alignfull */
+body {
+  	overflow-x: hidden;
+}
+.entry-content .alignfull {
+	margin-left: calc( -50vw + 50%);
+	margin-right: calc( -50vw + 50%);
+	max-width: 100vw;
+	width: 100vw;
+}
+
+/* Navigation */
+@media screen and (min-width: 600px){
+    .wp-block-navigation ul.wp-block-navigation-submenu li {
+        border-bottom: 1px solid rgba(0,0,0,.15);
+    }
+    .wp-block-navigation ul.wp-block-navigation-submenu li:last-child {
+        border: none;
+    }
+}
