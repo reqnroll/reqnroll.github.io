@@ -2112,6 +2112,10 @@ h6 {
     gap: var(--wp--preset--spacing--x-small);
 }
 
+.wp-block-navigation__responsive-container ul {
+    gap: 32px;
+}
+
 
 .skip-link.screen-reader-text {
     border: 0;
