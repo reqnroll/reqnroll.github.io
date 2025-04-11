@@ -33,9 +33,7 @@ In the first month we got a small, enthusiastic team of contributors. We keep im
 
 If you plan to talk about Reqnroll on a meetup or other event, please let us know, so that we can send you [Reqnroll stickers](https://github.com/orgs/reqnroll/discussions/98) for sharing.
 
-![Reqnroll stickers]({{ site.url }}/assets/images/2024/2024-05-30-10.15.08-472x1024.jpg)
-
-Photo by Gaspar Nagy
+{% include figure.html url="/assets/images/2024/2024-05-30-10.15.08-472x1024.jpg" alt="Reqnroll stickers" description="Photo by Gaspar Nagy" style="height:300px" %}
 
 No roadmap should exist without mentioning [sustainability](https://go.reqnroll.net/sustainability). We have established our [sponsoring channels]({{ site.url }}/sponsorship/#sponsorship-model) through [Open Source Foundation](https://opencollective.com/reqnroll) and [GitHub Sponsors](https://github.com/sponsors/reqnroll) (thanks for our first silver sponsor, [Info Support](https://www.infosupport.com/)!), but we also have our payed support packages for those who need instant and guaranteed help for their Reqnroll solution or for migrating from SpecFlow. The profit made on the support is also contributing to the annual budget of the open-source project that we would like to use to pay our infrastructure costs, for marketing and community building. See our detailed plans on the [Sponsorship page]({{ site.url }}/sponsorship/).
 

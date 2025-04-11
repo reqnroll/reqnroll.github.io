@@ -33,7 +33,7 @@ The extension provides support for projects with all .NET versions, including .N
 
 An exciting feature that is available with the Reqnroll extension is to list and jump to the hooks that are going to be executed when running a particular scenario.
 
-![Go To Hooks command]({{ site.url }}/assets/images/2024/vs-go-to-hooks.png)
+{% include figure.html url="/assets/images/2024/vs-go-to-hooks.png" alt="Go To Hooks command" description="Go To Hooks command" %}
 
 The command can be invoked from the context menu of the feature files (from a scenario), but it also comes up if you use the "Go To Definition" (F12) command from the heading of the scenario (tags, keyword line, description). The default keyboard shortcut for it is Ctrl+B, H.
 
