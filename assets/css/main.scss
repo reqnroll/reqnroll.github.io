@@ -2100,6 +2100,18 @@ h6 {
     margin-block-end: 0;
 }
 
+.wp-container-core-group-is-layout-7 {
+    justify-content: center;
+}
+
+.wp-container-core-group-is-layout-6 {
+    justify-content: center;
+}
+
+:root :where(.is-layout-flex) {
+    gap: var(--wp--preset--spacing--x-small);
+}
+
 
 .skip-link.screen-reader-text {
     border: 0;

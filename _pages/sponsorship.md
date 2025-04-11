@@ -6,41 +6,43 @@ permalink: /sponsorship/
 
 We are thankful to our sponsors who support the Reqnroll open-source project. Read more about the sponsorship tiers and benefits in the [Sponsorship Model](#sponsorship-model) section below.
 
-### Gold Sponsors
+<h3 class="wp-block-heading has-text-align-center" id="gold-sponsors">Gold Sponsors</h3>
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:image {"lightbox":{"enabled":false},"id":314,"scale":"cover","sizeSlug":"medium","linkDestination":"custom","align":"center"} -->
-<figure class="wp-block-image aligncenter size-medium"><a href="https://www.specsolutions.eu/"><img src="{{ site.url }}/assets/images/SpecSolution-logo-600-300x72.png" alt="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" class="wp-image-314" style="object-fit:cover" title="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website"/></a></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
+<figure class="wp-block-image aligncenter size-medium"><a href="https://www.specsolutions.eu/"><img decoding="async" width="300" height="72" src="{{ site.url }}/assets/images/SpecSolution-logo-600-300x72.png" alt="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" class="wp-image-314" style="object-fit:cover" title="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" srcset="{{ site.url }}/assets/images/SpecSolution-logo-600-300x72.png 300w, {{ site.url }}/assets/images/SpecSolution-logo-600.png 600w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
+</div>
 
-<!-- wp:column {"verticalAlignment":"bottom","width":"66.66%"} -->
-<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:66.66%"><!-- wp:paragraph {"fontSize":"small"} -->
+<div class="wp-block-column is-vertically-aligned-bottom is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <p class="has-small-font-size"><strong><a href="https://www.specsolutions.eu/">Spec Solutions</a></strong> is a consulting company for services provided by Gáspár Nagy and partners. They provide BDD training and coaching services and offer a product called SpecSync. <a href="https://www.specsolutions.eu/specsync/">SpecSync</a> integrates the BDD process with Azure DevOps or Jira by connecting and synchronizing the BDD scenarios with Test Cases and by publishing test execution results to them. With this, the development and testing activities remain transparent and traceable for all stakeholders.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"fontSize":"small"} -->
+
+
 <p class="has-small-font-size">Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+</div>
+</div>
 
-### Silver Sponsors
 
-[![Info Support sponsors Reqnroll by $200 / mo]({{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-300x100.png "Info Support sponsors Reqnroll by $200 / mo")](https://www.infosupport.com/)
 
-**[Info Support](https://www.infosupport.com/)** sponsors Reqnroll by $200 / mo
+<h3 class="wp-block-heading has-text-align-center" id="silver-sponsors">Silver Sponsors</h3>
 
-### Supporters
 
-Adam Lenda
 
-Gáspár Nagy
+<div class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-is-layout-6 wp-block-group-is-layout-flex">
+<figure class="wp-block-image size-medium"><a href="https://www.infosupport.com/"><img decoding="async" width="300" height="100" src="{{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-300x100.png" alt="Info Support sponsors Reqnroll by $200 / mo" class="wp-image-318" title="Info Support sponsors Reqnroll by $200 / mo" srcset="{{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-300x100.png 300w, {{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-1024x341.png 1024w, {{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-768x256.png 768w, {{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-1536x512.png 1536w, {{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-2048x683.png 2048w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption class="wp-element-caption"><strong><a href="https://www.infosupport.com/">Info Support</a></strong> sponsors Reqnroll by $200 / mo</figcaption></figure>
+</div>
 
-NCrunch
 
-Tim Murphy
+
+<h3 class="wp-block-heading has-text-align-center" id="supporters">Supporters</h3>
+
+<div class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-is-layout-7 wp-block-group-is-layout-flex">
+<p>Adam Lenda</p>
+<p>Gáspár Nagy</p>
+<p>NCrunch</p>
+<p>Tim Murphy</p>
+</div>
+
 
 ## Sponsorship Model
 
