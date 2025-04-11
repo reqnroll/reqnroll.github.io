@@ -17,6 +17,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://reqnroll.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  reqnroll
+linkedin_username: reqnroll
+google_analytics: GT-K4CTF7X
 
 # Build settings
 
