@@ -7,7 +7,7 @@ permalink: /support/
 Get support for using Reqnroll and contribute to the sustainability of the open-source project by choosing one of our subscription packages.
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"0"}}}} -->
-<div class="wp-block-columns alignwide" style="margin-bottom:0"><!-- wp:column {"style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}},"spacing":{"padding":{"top":"2em","right":"2em","bottom":"2em","left":"2em"}}},"backgroundColor":"surface"} -->
+<div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex" style="margin-bottom:0"><!-- wp:column {"style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}},"spacing":{"padding":{"top":"2em","right":"2em","bottom":"2em","left":"2em"}}},"backgroundColor":"surface"} -->
 <div class="wp-block-column has-surface-background-color has-text-color has-background has-link-color" style="color:#000000;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"40px"}}} -->
 <h2 class="wp-block-heading has-text-align-center" id="single" style="font-size:40px"><strong>Community</strong></h2>
 <!-- /wp:heading -->
@@ -91,7 +91,7 @@ Get support for using Reqnroll and contribute to the sustainability of the open-
 <!-- /wp:list -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"width":50,"style":{"border":{"radius":0}},"className":"subscription-button"} -->
+<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex"><!-- wp:button {"width":50,"style":{"border":{"radius":0}},"className":"subscription-button"} -->
 <div class="wp-block-button has-custom-width wp-block-button__width-50 subscription-button"><a class="subscription-button subscription-professional-button wp-block-button__link no-border-radius wp-element-button" href="https://www.specsolutions.eu/orders/?p=SIPeV2cnSFqZso25&amp;package=Professional">ORDER NOW</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
@@ -143,7 +143,7 @@ Get support for using Reqnroll and contribute to the sustainability of the open-
 <!-- /wp:list -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"width":50,"style":{"border":{"radius":0}},"className":"subscription-button"} -->
+<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex"><!-- wp:button {"width":50,"style":{"border":{"radius":0}},"className":"subscription-button"} -->
 <div class="wp-block-button has-custom-width wp-block-button__width-50 subscription-button"><a class="subscription-button subscription-enterprise-button wp-block-button__link no-border-radius wp-element-button" href="https://www.specsolutions.eu/orders/?p=SIPeV2cnSFqZso25&amp;package=Enterprise">ORDER NOW</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
