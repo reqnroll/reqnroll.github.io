@@ -2065,6 +2065,11 @@ h6 {
     justify-content: center;
 }
 
+.wp-container-core-group-is-layout-6 > * + * {
+    margin-block-start: var(--wp--preset--spacing--x-large);
+    margin-block-end: 0;
+}
+
 
 .skip-link.screen-reader-text {
     border: 0;
