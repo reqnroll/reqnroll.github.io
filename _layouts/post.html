@@ -1,52 +1,67 @@
 ---
 layout: base
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<main class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-7 wp-block-group-is-layout-constrained" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--x-large)">
+  <div class="wp-block-group alignfull has-surface-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><h1 class="has-text-align-center wp-block-post-title">{{ page.title | escape }}</h1>
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <div class="post-meta">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {% assign pdate = page.date | date_to_xmlschema %}
-      {%- if page.modified_date %}<span class="meta-label">Published:</span>{% endif %}
-      <time class="dt-published" datetime="{{ pdate }}" itemprop="datePublished">
-        {{ pdate | date: date_format }}
-      </time>
-      {%- if page.modified_date -%}
-        <span class="bullet-divider">•</span>
-        <span class="meta-label">Updated:</span>
-        {%- assign mdate = page.modified_date | date_to_xmlschema %}
-        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
-          {{ mdate | date: date_format }}
+    <div class="wp-block-group has-neutral-color has-text-color is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-5 wp-block-group-is-layout-flex">
+      <div class="wp-block-post-author"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">{{ page.author }}</p></div></div>
+      <p>·</p>
+      <div class="wp-block-post-date">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {% assign pdate = page.date | date_to_xmlschema %}
+        {%- if page.modified_date %}<span class="meta-label">Published:</span>{% endif %}
+        <time class="dt-published" datetime="{{ pdate }}" itemprop="datePublished">
+          {{ pdate | date: date_format }}
         </time>
-      {%- endif -%}
-      {%- if page.author %}
-      <div class="{% unless page.modified_date %}force-inline {% endunless %}post-authors">
-        {%- for author in page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-          {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
-      </div>
-      {%- endif %}
+        {%- if page.modified_date -%}
+          <p>·</p>
+          <span class="meta-label">Updated:</span>
+          {%- assign mdate = page.modified_date | date_to_xmlschema %}
+          <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+            {{ mdate | date: date_format }}
+          </time>
+        {%- endif -%}      
+        </div>
+      <p>·</p>
+      {% for category in page.categories %}
+        <div class="taxonomy-category wp-block-post-terms"><a href="{{ site.url }}/{{ category | downcase }}/" rel="tag">{{category}}</a></div>
+        {% if forloop.last == false %}<p>·</p>{% endif %}
+      {% endfor %}
     </div>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {% include featured_image.html %}
-
+  </div>
+  {% include featured_image.html %}
+  <div class="entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
     {{ content }}
+
+    <div class="sharedaddy sd-sharing-enabled">
+      <div class="sd-sharing">
+        <h3 class="sd-title">Tags:</h3>
+        <div class="taxonomy-post_tag is-style-swt-post-terms-pill wp-block-post-terms">
+          {% for tag in page.tags %}
+          <a href="#" rel="tag">{{ tag }}</a>{% if forloop.last == false %}<span class="wp-block-post-terms__separator">, </span>{% endif %}
+          {% endfor %}
+        </div>
+        
+      </div>
+      <div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing">
+        <h3 class="sd-title">Share this:</h3>
+        <div class="sd-content">
+          <ul>
+            <li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-334" class="share-linkedin sd-button share-icon no-text" href="{{ page.url | relative_url }}?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li>
+            <li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-334" class="share-facebook sd-button share-icon no-text" href="{{ page.url | relative_url }}?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li>
+            <li class="share-x"><a rel="nofollow noopener noreferrer" data-shared="sharing-x-334" class="share-x sd-button share-icon no-text" href="{{ page.url | relative_url }}?share=x" target="_blank" title="Click to share on X" ><span></span><span class="sharing-screen-reader-text">Click to share on X (Opens in new window)</span></a></li><li class="share-end"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    {%- if site.disqus.shortname -%}
+      {%- include disqus_comments.html -%}
+    {%- endif -%}
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
   </div>
-
-  <div class="taxonomy-post_tag is-style-swt-post-terms-pill wp-block-post-terms">
-    {% for tag in page.tags %}
-    <a href="#" rel="tag">{{ tag }}</a>{% if forloop.last == false %}<span class="wp-block-post-terms__separator">, </span>{% endif %}
-    {% endfor %}
-  </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+  <hr class="wp-block-separator has-text-color has-outline-color has-alpha-channel-opacity has-outline-background-color has-background is-style-wide"/>
+</main>
