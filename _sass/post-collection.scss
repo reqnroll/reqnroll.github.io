@@ -1,5 +1,17 @@
 // style for paged post lists in index and in /news
 
 .missing-image {
-  background-color: rgb(220, 220, 220);height: 200px;width: 100%;
+  background-color: rgb(220, 220, 220);
+  height: 200px;
+  width: 100%;
+}
+
+.paging-buttons{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.rss-subscribe{
+  font-size: var(--wp--preset--font-size--small);
 }

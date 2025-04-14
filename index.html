@@ -201,12 +201,17 @@ layout: index
 					<figure style="height:200px; margin-bottom:var(--wp--preset--spacing--small);"
 						class="wp-block-post-featured-image">
 						<a href="{{ post.url | relative_url }}"
-							target="_self" style="height:200px"><img
+							target="_self" style="height:200px">
+							{% if post.featured_image %}
+								<img
 								src="{{ post.featured_image | prepend: '/assets/images/' | relative_url }}"
 								class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
 								alt="{{ post.title }}"
 								style="border-radius:5px;height:200px;object-fit:cover;">
-							</a>
+							{% else %}
+								<div class="missing-image"></div>
+							{% endif %}
+						</a>
 					</figure>
 
 					{% for category in post.categories %}

@@ -16,19 +16,23 @@ pagination:
     <li
       class="wp-block-post post-350 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
 
-      <div class="wp-block-group is-layout-flow wp-container-core-group-is-layout-7 wp-block-group-is-layout-flow"
+      <div class="wp-block-group is-layout-flow wp-container-core-group-is-layout-9 wp-block-group-is-layout-flow"
         style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px">
-        {% if post.featured_image %}
+        
         <figure style="height:200px; margin-bottom:var(--wp--preset--spacing--small);"
-          class="wp-block-post-featured-image"><a href="{{ post.url | relative_url }}" target="_self"
-            style="height:200px"><img 
-              src="{{ post.featured_image | prepend: '/assets/images/' | relative_url }}"
-              class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-              alt="{{ post.title }}" style="border-radius:5px;height:200px;object-fit:cover;"></a>
+          class="wp-block-post-featured-image">
+          <a href="{{ post.url | relative_url }}" target="_self"
+            style="height:200px">
+            {% if post.featured_image %}
+              <img 
+                src="{{ post.featured_image | prepend: '/assets/images/' | relative_url }}"
+                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                alt="{{ post.title }}" style="border-radius:5px;height:200px;object-fit:cover;">
+            {% else %}
+              <div class="missing-image"></div>
+            {% endif %}
+          </a>
         </figure>
-        {% else %}
-        <div class="missing-image"></div>
-        {% endif %}
 
         <div class="taxonomy-category has-link-color wp-elements-82b5603708064b06546400967d8e01c5 wp-block-post-terms">
           <a href="{{ site.url }}/{{ post.categories | first | downcase }}/" rel="tag">{{post.categories | first}}</a>
@@ -39,7 +43,7 @@ pagination:
 
 
         <div
-          class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6 wp-block-group-is-layout-flex">
+          class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-10 wp-block-group-is-layout-flex">
           <div class="wp-block-post-author-name has-x-small-font-size">{{ post.author }}</div>
 
           <hr
@@ -56,18 +60,14 @@ pagination:
 
 
 {% if paginator.total_pages > 1 %}
-<ul>
-  {% if paginator.previous_page %}
-  <li>
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Newer</a>
-  </li>
-  {% endif %}
+<div class="paging-buttons">
   {% if paginator.next_page %}
-  <li>
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rarr;</a>
-  </li>
+  <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older Posts</a></div>  
   {% endif %}
-</ul>
+  {% if paginator.previous_page %}
+  <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer Posts</a></div>  
+  {% endif %}
+</div>
 {% endif %}
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
