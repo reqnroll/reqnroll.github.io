@@ -45,6 +45,21 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+autopages:
+  enabled: true
+  tags:
+    layouts: 
+      - 'post-list.html'
+    title: 'Posts tagged with :tag'
+    permalink: '/tag/:tag'
+    silent: false
+    slugify:
+      mode: 'default'   # :tag is slugified.
+      case: false
+  categories:
+    enabled: false
+  collections:
+    enabled: false      
 
 exclude:
   - README.md

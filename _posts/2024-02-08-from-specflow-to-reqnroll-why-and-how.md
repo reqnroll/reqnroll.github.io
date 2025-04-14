@@ -3,7 +3,7 @@ layout: post
 title: "From SpecFlow to Reqnroll: Why and How"
 date: 2024-02-08
 categories: News
-tags: .NET BDD Cucumber GitHub IDE migrate opensource Reqnroll SpecFlow VisualStudio
+tags: Migration OpenSource SpecFlow VisualStudio
 featured_image: reqnroll-logo-bubbles.jpg
 author: Gaspar Nagy
 ---
