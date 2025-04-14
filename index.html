@@ -193,7 +193,8 @@ layout: index
 	
 	
 	<div class="wp-block-query is-layout-flow wp-block-query-is-layout-flow"><ul class="columns-3 wp-block-post-template is-layout-grid wp-container-core-post-template-is-layout-1 wp-block-post-template-is-layout-grid">
-		{% for post in site.posts %}
+		{% assign recent_posts = site.posts | slice: 0, 3 %}
+		{% for post in recent_posts %}
 			<li class="wp-block-post post type-post status-publish format-standard has-post-thumbnail hentry">
 				<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow wp-container-core-group-is-layout-17"
 					style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px">
