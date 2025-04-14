@@ -26,6 +26,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-sitemap
 
 include: ['_pages']
 permalink: pretty

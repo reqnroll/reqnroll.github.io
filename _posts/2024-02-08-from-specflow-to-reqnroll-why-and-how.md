@@ -2,6 +2,7 @@
 layout: post
 title: "From SpecFlow to Reqnroll: Why and How"
 date: 2024-02-08
+last_modified_at: 2024-02-16
 categories: News
 tags: Migration OpenSource SpecFlow VisualStudio
 featured_image: reqnroll-logo-bubbles.jpg
