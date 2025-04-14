@@ -25,6 +25,7 @@ google_analytics: GT-K4CTF7X
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 
 include: ['_pages']
 permalink: pretty
@@ -34,6 +35,16 @@ defaults:
       type: "posts"
     values:
       permalink: /:categories/:year/:month/:title/
+
+# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: '/:num/'
+  title: ':title — Page :num'
+  sort_field: 'date'
+  sort_reverse: true
+
 
 exclude:
   - README.md
