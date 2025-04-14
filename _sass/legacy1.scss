@@ -1,7 +1,4 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
+$site_url: "" !default;
 
 .wp-block-site-logo {
     box-sizing: border-box;
@@ -2176,7 +2173,7 @@ img:is([sizes="auto" i], [sizes^="auto," i]) {
     font-style: normal;
     font-weight: 300;
     font-display: fallback;
-    src: url('{{ site.url }}/assets/kortez-fse/fonts/manrope/Manrope-Light.ttf') format('truetype');
+    src: url($site_url + '/assets/kortez-fse/fonts/manrope/Manrope-Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -2184,7 +2181,7 @@ img:is([sizes="auto" i], [sizes^="auto," i]) {
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url('{{ site.url }}/assets/kortez-fse/fonts/manrope/Manrope-Regular.ttf') format('truetype');
+    src: url($site_url + '/assets/kortez-fse/fonts/manrope/Manrope-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -2192,7 +2189,7 @@ img:is([sizes="auto" i], [sizes^="auto," i]) {
     font-style: normal;
     font-weight: 500;
     font-display: fallback;
-    src: url('{{ site.url }}/assets/kortez-fse/fonts/manrope/Manrope-Medium.ttf') format('truetype');
+    src: url($site_url + '/assets/kortez-fse/fonts/manrope/Manrope-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -2200,7 +2197,7 @@ img:is([sizes="auto" i], [sizes^="auto," i]) {
     font-style: normal;
     font-weight: 600;
     font-display: fallback;
-    src: url('{{ site.url }}/assets/kortez-fse/fonts/manrope/Manrope-SemiBold.ttf') format('truetype');
+    src: url($site_url + '/assets/kortez-fse/fonts/manrope/Manrope-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
@@ -2208,7 +2205,7 @@ img:is([sizes="auto" i], [sizes^="auto," i]) {
     font-style: normal;
     font-weight: 700;
     font-display: fallback;
-    src: url('{{ site.url }}/assets/kortez-fse/fonts/manrope/Manrope-Bold.ttf') format('truetype');
+    src: url($site_url + '/assets/kortez-fse/fonts/manrope/Manrope-Bold.ttf') format('truetype');
 }
 
 .termly-styles-module-primary-c2e506 {

@@ -1,0 +1,5 @@
+$site_url: "" !default;
+@use "../assets/kortez-fse/style.css";
+@use "legacy2";
+@use "legacy1" with ($site_url: $site_url);
+@use "post-collection.scss";
