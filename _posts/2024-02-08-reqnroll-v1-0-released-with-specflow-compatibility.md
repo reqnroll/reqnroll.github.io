@@ -6,7 +6,7 @@ categories: News
 tags: Release
 image: 2024/announcement-oscar-keys-ojVMh1QTVGY-unsplash.jpg
 image_caption: "Photo by Oscar Key on Unsplash.com"
-author: Gaspar Nagy
+author: gasparnagy
 ---
 
 I'm proudly announcing that the first version of Reqnroll has been released: v1.0.0 ([Release notes](https://go.reqnroll.net/release-notes)).

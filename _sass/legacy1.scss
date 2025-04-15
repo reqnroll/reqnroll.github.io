@@ -2080,6 +2080,10 @@ h6 {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .wp-block-post-author__content {

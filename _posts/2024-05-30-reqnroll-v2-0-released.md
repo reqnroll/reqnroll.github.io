@@ -6,7 +6,7 @@ categories: News
 tags: Release
 image: 2024/reqnroll-john-matychuk-gUK3lA3K7Yo-unsplash-scaled.jpg
 image_caption: "Photo by John Matychuk on Unsplash.com"
-author: Gaspar Nagy
+author: gasparnagy
 ---
 
 Last week we released a new major version of Reqnroll: **Reqnroll v2.0**.

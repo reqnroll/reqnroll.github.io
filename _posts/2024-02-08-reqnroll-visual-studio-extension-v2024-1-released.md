@@ -6,7 +6,7 @@ categories: News
 tags: Release SpecFlow VisualStudio
 image: 2024/backstage-jessie-mccall-2vfKU3bm8xM-unsplash.jpg
 image_caption: "Photo by Jesse McCall on Unsplash.com"
-author: Gaspar Nagy
+author: gasparnagy
 ---
 
 **Reqnroll Visual Studio Extension v2024.1 has been released with SpecFlow & Reqnroll project support, .NET 8 support and hook navigation.**

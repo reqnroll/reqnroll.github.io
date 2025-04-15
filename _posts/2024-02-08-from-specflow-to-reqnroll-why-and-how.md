@@ -6,7 +6,7 @@ last_modified_at: 2024-02-16
 categories: News
 tags: Migration OpenSource SpecFlow VisualStudio
 image: reqnroll-logo-bubbles.jpg
-author: Gaspar Nagy
+author: gasparnagy
 ---
 
 Please, welcome **Reqnroll**, a fork of SpecFlow with the aim of rebooting the open-source project!

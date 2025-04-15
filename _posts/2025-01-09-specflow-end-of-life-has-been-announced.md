@@ -6,7 +6,7 @@ categories: News
 tags: LivingDoc Migration OpenSource SpecFlow
 image: 2025/SF_dead.png
 image_caption: "Screenshot from the specflow.org website"
-author: Gaspar Nagy
+author: gasparnagy
 ---
 
 In December 2024, Tricentis [announced **the end-of-life of the SpecFlow open source project**](https://support-hub.tricentis.com/open?number=NEW0001432&id=post). According to the announcement, SpecFlow reached its end-of-life on December 31, 2024. As of 1st January, the SpecFlow GitHub projects are deleted and the support section of the specflow.org website is disabled.
