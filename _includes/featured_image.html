@@ -1,15 +1,15 @@
-{%- if page.featured_image %}
+{%- if page.image %}
 <figure class="wp-block-post-featured-image">
   <figure class="wp-caption featured">
     <img 
-      src="{{ page.featured_image | prepend: '/assets/images/' | relative_url }}" 
+      src="{{ page.image | prepend: '/assets/images/' | relative_url }}" 
       class="attachment-post-thumbnail size-post-thumbnail wp-post-image" 
       alt="" 
       style="object-fit:cover;" 
       decoding="async" 
       fetchpriority="high"/>
-      {%- if page.featured_image_caption %}
-      <figcaption style="font-size: var(--wp--preset--font-size--x-small); text-align: right; margin-top: -25px; padding-right: 5px; color: white;">{{ page.featured_image_caption }}</figcaption>
+      {%- if page.image_caption %}
+      <figcaption style="font-size: var(--wp--preset--font-size--x-small); text-align: right; margin-top: -25px; padding-right: 5px; color: white;">{{ page.image_caption }}</figcaption>
       {%- endif %}
   </figure>
 </figure>

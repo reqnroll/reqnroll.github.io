@@ -2,7 +2,7 @@
 layout: page
 title: "About Reqnroll"
 permalink: /about/
-featured_image: reqnroll-logo-bubbles.jpg
+image: reqnroll-logo-bubbles.jpg
 ---
 
 **Reqnroll** (pronounced as \[reknroʊl\]) is an open-source Cucumber-style BDD test automation framework for .NET. It has been created as a reboot of the SpecFlow project.

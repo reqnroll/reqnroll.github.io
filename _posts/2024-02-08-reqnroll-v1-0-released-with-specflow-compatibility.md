@@ -4,12 +4,14 @@ title: "Reqnroll v1.0 released with SpecFlow compatibility"
 date: 2024-02-08
 categories: News
 tags: Release
-featured_image: 2024/announcement-oscar-keys-ojVMh1QTVGY-unsplash.jpg
-featured_image_caption: "Photo by Oscar Key on Unsplash.com"
+image: 2024/announcement-oscar-keys-ojVMh1QTVGY-unsplash.jpg
+image_caption: "Photo by Oscar Key on Unsplash.com"
 author: Gaspar Nagy
 ---
 
 I'm proudly announcing that the first version of Reqnroll has been released: v1.0.0 ([Release notes](https://go.reqnroll.net/release-notes)).
+
+<!--more-->
 
 For the background and motivation of the [Reqnroll project]({{ site.url }}), please check our [intro post]({{ site.url }}/news/2024/02/from-specflow-to-reqnroll-why-and-how/).
 

@@ -202,9 +202,9 @@ layout: index
 						class="wp-block-post-featured-image">
 						<a href="{{ post.url | relative_url }}"
 							target="_self" style="height:200px">
-							{% if post.featured_image %}
+							{% if post.image %}
 								<img
-								src="{{ post.featured_image | prepend: '/assets/images/' | relative_url }}"
+								src="{{ post.image | prepend: '/assets/images/' | relative_url }}"
 								class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
 								alt="{{ post.title }}"
 								style="border-radius:5px;height:200px;object-fit:cover;">

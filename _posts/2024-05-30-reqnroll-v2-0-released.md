@@ -4,8 +4,8 @@ title: "Reqnroll v2.0 released"
 date: 2024-05-30
 categories: News
 tags: Release
-featured_image: 2024/reqnroll-john-matychuk-gUK3lA3K7Yo-unsplash-scaled.jpg
-featured_image_caption: "Photo by John Matychuk on Unsplash.com"
+image: 2024/reqnroll-john-matychuk-gUK3lA3K7Yo-unsplash-scaled.jpg
+image_caption: "Photo by John Matychuk on Unsplash.com"
 author: Gaspar Nagy
 ---
 

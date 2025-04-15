@@ -38,8 +38,19 @@ defaults:
     values:
       permalink: /:categories/:year/:month/:title/
 
-seo_paginator_message: ''
 
+# SEO settings, see https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# See also: https://developers.google.com/search/docs/appearance/structured-data/organization
+seo_paginator_message: ''
+twitter:
+  username: ReqnrollBdd
+logo: /assets/images/reqnroll-logo-130x48-1.png
+social:
+  name: Reqnroll
+  links:
+    - https://github.com/reqnroll
+    - https://www.linkedin.com/company/reqnroll/
+    - https://twitter.com/ReqnrollBdd
 
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
 pagination:

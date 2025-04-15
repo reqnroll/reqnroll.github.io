@@ -4,12 +4,14 @@ title: "Reqnroll Visual Studio Extension v2024.1 released"
 date: 2024-02-08
 categories: News
 tags: Release SpecFlow VisualStudio
-featured_image: 2024/backstage-jessie-mccall-2vfKU3bm8xM-unsplash.jpg
-featured_image_caption: "Photo by Jesse McCall on Unsplash.com"
+image: 2024/backstage-jessie-mccall-2vfKU3bm8xM-unsplash.jpg
+image_caption: "Photo by Jesse McCall on Unsplash.com"
 author: Gaspar Nagy
 ---
 
 **Reqnroll Visual Studio Extension v2024.1 has been released with SpecFlow & Reqnroll project support, .NET 8 support and hook navigation.**
+
+<!--more-->
 
 The first version of the Reqnroll Visual Studio 2022 extension has been released: v2024.1.49 ([Release notes](https://go.reqnroll.net/vs-release-notes)).
 
