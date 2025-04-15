@@ -52,7 +52,7 @@ social:
     - https://www.linkedin.com/company/reqnroll/
     - https://twitter.com/ReqnrollBdd
 
-# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
+# Pagination, see https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
 pagination:
   enabled: true
   per_page: 6
@@ -61,6 +61,7 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+# Tag pages, see https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md
 autopages:
   enabled: true
   tags:
