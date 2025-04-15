@@ -1827,7 +1827,6 @@ h6 {
 
 .wp-container-core-columns-is-layout-1 {
     flex-wrap: nowrap;
-    gap: 0 0;
 }
 
 .wp-container-core-group-is-layout-6>.alignfull {
@@ -2104,15 +2103,6 @@ h6 {
 .wp-container-core-group-is-layout-6 {
     justify-content: center;
 }
-
-:root :where(.is-layout-flex) {
-    gap: var(--wp--preset--spacing--x-small);
-}
-
-.wp-block-navigation__responsive-container ul {
-    gap: 32px;
-}
-
 
 .skip-link.screen-reader-text {
     border: 0;
