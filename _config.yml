@@ -76,7 +76,32 @@ autopages:
   categories:
     enabled: false
   collections:
-    enabled: false      
+    enabled: false     
+
+
+jekyll-share:
+  mappings:
+    twitter:hashtags: '@tags'
+    email:subject: '@title'
+  groups:
+    default:
+      wrappers:
+        service_start: '<li>'
+        service_end: '</li>'
+        group_start: '<ul>'
+        group_end: '</ul>'
+      extend_with:
+      - icons.font_awesome
+      icon_size: 'medium'
+      template: 'icon'
+      services:
+      - linkedin
+      - twitter
+      - reddit
+      - facebook
+      - email
+
+ 
 
 exclude:
   - README.md

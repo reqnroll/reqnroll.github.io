@@ -47,11 +47,7 @@ layout: base
       <div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing">
         <h3 class="sd-title">Share this:</h3>
         <div class="sd-content">
-          <ul>
-            <li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-334" class="share-linkedin sd-button share-icon no-text" href="{{ page.url | relative_url }}?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li>
-            <li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-334" class="share-facebook sd-button share-icon no-text" href="{{ page.url | relative_url }}?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li>
-            <li class="share-x"><a rel="nofollow noopener noreferrer" data-shared="sharing-x-334" class="share-x sd-button share-icon no-text" href="{{ page.url | relative_url }}?share=x" target="_blank" title="Click to share on X" ><span></span><span class="sharing-screen-reader-text">Click to share on X (Opens in new window)</span></a></li><li class="share-end"></li>
-          </ul>
+          {% share_group name='default' icon_size='medium' %}
         </div>
       </div>
     </div>
