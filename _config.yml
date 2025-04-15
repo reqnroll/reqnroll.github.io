@@ -9,10 +9,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Home • Reqnroll
+title: Reqnroll
 email: admin@reqnroll.net
 description: >- 
   Reqnroll is an open-source Cucumber-style BDD test automation framework for .NET. It has been created as a reboot of the SpecFlow project.
+tagline: BDD framework for .NET
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://reqnroll.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -36,6 +37,9 @@ defaults:
       type: "posts"
     values:
       permalink: /:categories/:year/:month/:title/
+
+seo_paginator_message: ''
+
 
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
 pagination:
