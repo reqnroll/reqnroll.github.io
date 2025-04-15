@@ -20,26 +20,27 @@
           <button aria-haspopup="dialog" aria-label="Open menu"
             class="wp-block-navigation__responsive-container-open "
             data-wp-on-async--click="actions.openMenuOnClick"
-            data-wp-on--keydown="actions.handleMenuKeydown"><svg width="24" height="24"
+            data-wp-on--keydown="actions.handleMenuKeydown"
+            onclick="showMenu()"><svg width="24" height="24"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"
               focusable="false">
               <rect x="4" y="7.5" width="16" height="1.5"></rect>
               <rect x="4" y="15" width="16" height="1.5"></rect>
             </svg>
           </button>
-          <div class="wp-block-navigation__responsive-container" id="modal-1"
+          <div class="wp-block-navigation__responsive-container" id="navigation-container"
             data-wp-class--has-modal-open="state.isMenuOpen"
             data-wp-class--is-menu-open="state.isMenuOpen" data-wp-watch="callbacks.initMenu"
             data-wp-on--keydown="actions.handleMenuKeydown"
-            data-wp-on-async--focusout="actions.handleMenuFocusout" tabindex="-1">
+            data-wp-on-async--focusout="actions.handleMenuFocusout" tabindex="-1" onfocusout="hideWhenFocusOut(event)" onkeydown="menuContainerKeyDown(event)">
             <div class="wp-block-navigation__responsive-close" tabindex="-1">
               <div class="wp-block-navigation__responsive-dialog"
                 data-wp-bind--aria-modal="state.ariaModal"
                 data-wp-bind--aria-label="state.ariaLabel"
                 data-wp-bind--role="state.roleAttribute">
-                <button aria-label="Close menu"
-                  class="wp-block-navigation__responsive-container-close"
-                  data-wp-on-async--click="actions.closeMenuOnClick"><svg
+                <button aria-label="Close menu" id="navigation-container-close"
+                  class="menu-control wp-block-navigation__responsive-container-close"
+                  data-wp-on-async--click="actions.closeMenuOnClick" onclick="hideMenu()"><svg
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                     height="24" aria-hidden="true" focusable="false">
                     <path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z">
@@ -50,26 +51,26 @@
                   <ul
                     class="wp-block-navigation__container is-responsive items-justified-center wp-block-navigation">
                     <li class=" wp-block-navigation-item current-menu-item wp-block-navigation-link">
-                      <a class="wp-block-navigation-item__content"
+                      <a class="menu-control wp-block-navigation-item__content"
                         href="{{ site.url }}" aria-current="page"><span
                           class="wp-block-navigation-item__label">Home</span></a>
                     </li>
                     <li class=" wp-block-navigation-item wp-block-navigation-link"><a
-                        class="wp-block-navigation-item__content"
+                        class="menu-control wp-block-navigation-item__content"
                         href="https://go.reqnroll.net/quickstart" target="_blank"><span
                           class="wp-block-navigation-item__label">Quickstart</span></a>
                     </li>
                     <li class=" wp-block-navigation-item wp-block-navigation-link"><a
-                        class="wp-block-navigation-item__content"
+                        class="menu-control wp-block-navigation-item__content"
                         href="https://docs.reqnroll.net/" target="_blank"><span
                           class="wp-block-navigation-item__label">Documentation</span></a>
                     </li>
                     <li class=" wp-block-navigation-item wp-block-navigation-link"><a
-                        class="wp-block-navigation-item__content"
+                        class="menu-control wp-block-navigation-item__content"
                         href="{{ site.url }}/news/"><span
                           class="wp-block-navigation-item__label">News</span></a></li>
                     <li class=" wp-block-navigation-item wp-block-navigation-link"><a
-                        class="wp-block-navigation-item__content"
+                        class="menu-control wp-block-navigation-item__content"
                         href="{{ site.url }}/support/"><span
                           class="wp-block-navigation-item__label">Support</span></a>
                     </li>
@@ -81,7 +82,7 @@
                       data-wp-on-async--mouseleave="actions.closeMenuOnHover"
                       data-wp-watch="callbacks.initMenu" tabindex="-1"
                       class=" wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu">
-                      <a class="wp-block-navigation-item__content">About</a><button
+                      <a class="menu-control wp-block-navigation-item__content">About</a><button
                         data-wp-bind--aria-expanded="state.isMenuOpen"
                         data-wp-on-async--click="actions.toggleMenuOnClick"
                         aria-label="About submenu"
@@ -95,18 +96,18 @@
                       <ul data-wp-on-async--focus="actions.openMenuOnFocus"
                         class="wp-block-navigation__submenu-container wp-block-navigation-submenu">
                         <li class=" wp-block-navigation-item wp-block-navigation-link">
-                          <a class="wp-block-navigation-item__content"
+                          <a class="menu-control wp-block-navigation-item__content"
                             href="{{ site.url }}/about/"><span
                               class="wp-block-navigation-item__label">About
                               Reqnroll</span></a>
                         </li>
                         <li class=" wp-block-navigation-item wp-block-navigation-link">
-                          <a class="wp-block-navigation-item__content"
+                          <a class="menu-control wp-block-navigation-item__content"
                             href="{{ site.url }}/sponsorship/"><span
                               class="wp-block-navigation-item__label">Sponsorship</span></a>
                         </li>
                         <li class=" wp-block-navigation-item wp-block-navigation-link">
-                          <a class="wp-block-navigation-item__content"
+                          <a class="menu-control wp-block-navigation-item__content"
                             href="{{ site.url }}/contact/"><span
                               class="wp-block-navigation-item__label">Contact</span></a>
                         </li>
