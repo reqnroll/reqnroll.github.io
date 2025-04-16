@@ -1,11 +1,7 @@
 /* PAGES */
 
-.page-main {
-  padding-bottom: var(--wp--preset--spacing--x-large)
-}
+@use "structure";
 
-// page block separator: separates top level blocks of the page with x-large spacing (applies to child elements of .page-main from the 2nd on)
-.page-main>*+* {
-  margin-block-start: var(--wp--preset--spacing--x-large);
-  margin-block-end: 0;
+.page {
+  @extend .page-like;
 }

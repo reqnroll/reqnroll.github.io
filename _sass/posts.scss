@@ -1,1 +1,7 @@
 /* POSTS */
+
+@use "structure";
+
+.post {
+  @extend .page-like;
+}

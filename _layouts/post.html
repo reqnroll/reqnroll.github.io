@@ -1,8 +1,9 @@
 ---
 layout: base
 ---
-<main class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-7 wp-block-group-is-layout-constrained" style="padding-top:0;padding-bottom:var(--wp--preset--spacing--x-large)">
-  <div class="wp-block-group alignfull has-surface-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><h1 class="has-text-align-center wp-block-post-title">{{ page.title | escape }}</h1>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="wp-block-group alignfull has-surface-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)">
+    <h1 class="has-text-align-center wp-block-post-title">{{ page.title | escape }}</h1>
 
     <div class="wp-block-group has-neutral-color has-text-color is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-5 wp-block-group-is-layout-flex">
       <div class="wp-block-post-author"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name"><a href="{{ site.data["authors"][page.author].url }}">{{ site.data["authors"][page.author].name }}</a></p></div></div>
@@ -33,31 +34,29 @@ layout: base
   {% include featured_image.html %}
   <div class="entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
     {{ content }}
-
-    <div class="sharedaddy sd-sharing-enabled">
-      <div class="sd-sharing">
-        <h3 class="sd-title">Tags:</h3>
-        <div class="taxonomy-post_tag is-style-swt-post-terms-pill wp-block-post-terms">
-          {% for tag in page.tags %}
-          <a href="{{ site.url }}/tag/{{ tag | slugify }}" rel="tag">{{ tag }}</a>{% if forloop.last == false %}<span class="wp-block-post-terms__separator">, </span>{% endif %}
-          {% endfor %}
-        </div>
-        
+  </div>
+  <div class="sharedaddy sd-sharing-enabled">
+    <div class="sd-sharing">
+      <h3 class="sd-title">Tags:</h3>
+      <div class="taxonomy-post_tag is-style-swt-post-terms-pill wp-block-post-terms">
+        {% for tag in page.tags %}
+        <a href="{{ site.url }}/tag/{{ tag | slugify }}" rel="tag">{{ tag }}</a>{% if forloop.last == false %}<span class="wp-block-post-terms__separator">, </span>{% endif %}
+        {% endfor %}
       </div>
-      <div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing">
-        <h3 class="sd-title">Share this:</h3>
-        <div class="sd-content">
-          {% share_group name='default' icon_size='medium' %}
-        </div>
+      
+    </div>
+    <div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing">
+      <h3 class="sd-title">Share this:</h3>
+      <div class="sd-content">
+        {% share_group name='default' icon_size='medium' %}
       </div>
     </div>
-
-    {%- if site.disqus.shortname -%}
-      {%- include disqus_comments.html -%}
-    {%- endif -%}
-
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-
   </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
   <hr class="wp-block-separator has-text-color has-outline-color has-alpha-channel-opacity has-outline-background-color has-background is-style-wide"/>
-</main>
+</article>

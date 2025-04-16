@@ -30,3 +30,18 @@ body {
 .surely-not-covered {
   padding-right: 0;
 }
+
+.page-like {
+  padding-bottom: var(--wp--preset--spacing--x-large);
+
+  > .alignfull {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%); 
+  }
+
+  // page block separator: separates top level blocks of the page with x-large spacing (applies to child elements of .page-main from the 2nd on)
+  > *+* {
+    margin-block-start: var(--wp--preset--spacing--x-large);
+    margin-block-end: 0;
+  }
+}
