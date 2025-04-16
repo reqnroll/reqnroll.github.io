@@ -79,6 +79,7 @@ autopages:
     enabled: false     
 
 
+# Post share settings, see https://github.com/fabiomux/jekyll-share-plugin
 jekyll-share:
   mappings:
     twitter:hashtags: '@tags'
@@ -101,7 +102,9 @@ jekyll-share:
       - facebook
       - email
 
- 
+#  SASS conversion settings, see https://github.com/jekyll/jekyll-sass-converter
+sass:
+  style: compressed
 
 exclude:
   - README.md
