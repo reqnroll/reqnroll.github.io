@@ -1,5 +1,10 @@
 $site_url: "" !default;
 @use "../assets/kortez-fse/style.css";
+@use "variables";
 @use "legacy2";
 @use "legacy1" with ($site_url: $site_url);
+
+@use "structure";
+@use "pages";
+@use "posts";
 @use "post-list";

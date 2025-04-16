@@ -1,8 +1,10 @@
 ---
 layout: base
 ---
-<main class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-6 wp-block-group-is-layout-constrained" style="margin-top:0px;padding-top:0px;padding-bottom:var(--wp--preset--spacing--x-large)">
-  <div class="wp-block-group alignfull has-surface-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><h1 class="has-text-align-center wp-block-post-title">{{ page.title | escape }}</h1></div>
+<main class="page-main has-global-padding is-layout-constrained">
+  <div class="wp-block-group alignfull has-surface-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)">
+    <h1 class="has-text-align-center wp-block-post-title">{{ page.title | escape }}</h1>
+  </div>
   {% include featured_image.html %}
   <div class="entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
     {{ content }}

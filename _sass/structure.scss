@@ -1,0 +1,32 @@
+/* GLOBAL STRUCTURE */
+
+body {
+  background-color: var(--wp--preset--color--background);
+  color: var(--wp--preset--color--body);
+  font-family: var(--wp--preset--font-family--body);
+  font-size: var(--wp--preset--font-size--medium);
+  font-weight: var(--wp--custom--font-weight--regular);
+  line-height: var(--wp--custom--line-height--large);
+  margin: 0;
+
+  main {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.has-global-padding {
+  padding-right: var(--wp--style--root--padding-right);
+  padding-left: var(--wp--style--root--padding-left);
+}
+
+.has-global-padding>.alignfull {
+  margin-right: calc(var(--wp--style--root--padding-right) * -1);
+  margin-left: calc(var(--wp--style--root--padding-left) * -1);
+}
+
+.surely-not-covered {
+  padding-right: 0;
+}
