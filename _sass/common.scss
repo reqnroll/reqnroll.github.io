@@ -1,0 +1,103 @@
+/* COMMON RULES */
+
+.has-global-padding {
+  padding-right: var(--wp--style--root--padding-right);
+  padding-left: var(--wp--style--root--padding-left);
+
+  >.alignfull {
+    margin-right: calc(var(--wp--style--root--padding-right) * -1);
+    margin-left: calc(var(--wp--style--root--padding-left) * -1);
+  }
+}
+
+:root :where(.is-layout-constrained)> :first-child {
+  margin-block-start: 0;
+}
+
+:root :where(.is-layout-constrained)> :last-child {
+  margin-block-end: 0;
+}
+
+:root :where(.is-layout-constrained)>* {
+  margin-block-start: var(--wp--preset--spacing--x-small);
+  margin-block-end: 0;
+}
+
+.is-layout-constrained {
+
+  >.alignleft {
+    float: left;
+    margin-inline-start: 0;
+    margin-inline-end: 2em;
+  }
+
+  >.alignright {
+    float: right;
+    margin-inline-start: 2em;
+    margin-inline-end: 0;
+  }
+
+  >.aligncenter {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  >.alignwide {
+    max-width: var(--wp--style--global--wide-size);
+  }
+
+  > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: var(--wp--style--global--content-size);
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+// clone of old is-flex-layout
+.centered-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--wp--preset--spacing--x-small);
+
+  > :is(*, div) {
+    margin: 0;
+  }
+}
+
+// clone of is-layout-flow
+.flow-document {
+  > :first-child {
+    margin-block-start: 0;
+  }
+
+  > :last-child {
+    margin-block-end: 0;
+  }
+
+  >* {
+    margin-block-start: var(--wp--preset--spacing--x-small);
+    margin-block-end: 0;
+  }
+
+  >.alignleft {
+    float: left;
+    margin-inline-start: 0;
+    margin-inline-end: 2em;
+  }
+
+  >.alignright {
+    float: right;
+    margin-inline-start: 2em;
+    margin-inline-end: 0;
+  }
+
+  >.aligncenter {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.separator {
+  white-space: pre-wrap
+}

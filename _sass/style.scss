@@ -4,6 +4,7 @@ $site_url: "" !default;
 @use "legacy2";
 @use "legacy1" with ($site_url: $site_url);
 
+@use "common";
 @use "structure";
 @use "pages";
 @use "posts";

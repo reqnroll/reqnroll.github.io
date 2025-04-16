@@ -80,6 +80,7 @@
   --wp--preset--spacing--60: 2.25rem;
   --wp--preset--spacing--70: 3.38rem;
   --wp--preset--spacing--80: 5.06rem;
+  --wp--preset--spacing--xxx-small: calc(var(--wp--preset--font-size--medium, 1rem)/3);
   --wp--preset--spacing--xx-small: calc(var(--wp--preset--font-size--medium, 1rem)/2);
   --wp--preset--spacing--x-small: calc(var(--wp--preset--font-size--medium, 1rem));
   --wp--preset--spacing--small: calc(var(--wp--preset--font-size--medium, 1rem)*1.5);
