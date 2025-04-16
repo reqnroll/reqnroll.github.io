@@ -1,16 +1,11 @@
 {%- if page.image %}
-<figure class="wp-block-post-featured-image">
-  <figure class="wp-caption featured">
-    <img 
-      src="{{ page.image | prepend: '/assets/images/' | relative_url }}" 
-      class="attachment-post-thumbnail size-post-thumbnail wp-post-image" 
-      alt="" 
-      style="object-fit:cover;" 
-      decoding="async" 
-      fetchpriority="high"/>
-      {%- if page.image_caption %}
-      <figcaption style="font-size: var(--wp--preset--font-size--x-small); text-align: right; margin-top: -25px; padding-right: 5px; color: white;">{{ page.image_caption }}</figcaption>
-      {%- endif %}
-  </figure>
+<figure class="featured-image">
+  <img 
+    src="{{ page.image | prepend: '/assets/images/' | relative_url }}" alt="Featured image for post '{{ page.title | escape }}'" 
+    decoding="async" 
+    fetchpriority="high"/>
+    {%- if page.image_caption %}
+    <figcaption class="overlay-caption">{{ page.image_caption }}</figcaption>
+    {%- endif %}
 </figure>
 {%- endif %}
