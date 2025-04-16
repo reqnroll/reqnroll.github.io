@@ -6,6 +6,10 @@
 	<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
 	<link rel="dns-prefetch" href="//use.fontawesome.com">
 
+	{%- if jekyll.environment == 'production' -%}
+		<script type="text/javascript" src="https://app.termly.io/resource-blocker/12e4da83-cc52-4ce5-a47d-213e4c3bcf0b?autoBlock=on"></script>
+	{%- endif -%}
+
 	{%- seo -%}
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
 	<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
