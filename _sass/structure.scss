@@ -136,6 +136,32 @@ body {
   }
 }
 
+.document-figure {
+
+  display: table;
+
+  &.aligncenter {
+    text-align: center;
+  }
+
+  img {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
+  figcaption {
+    caption-side: bottom;
+    display: table-caption;
+    color: #555;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+  }
+}
+
 /* overrides for content types */
 
 .post {
