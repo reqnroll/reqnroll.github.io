@@ -15,7 +15,7 @@ description: >-
   Reqnroll is an open-source Cucumber-style BDD test automation framework for .NET. It has been created as a reboot of the SpecFlow project.
 tagline: BDD framework for .NET
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://reqnroll.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://reqnroll.net" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  reqnroll
 linkedin_username: reqnroll
