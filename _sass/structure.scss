@@ -174,8 +174,11 @@ body {
 .featured-image {
   @extend .document-figure;
 
+  width: 100%;
+
   img {
     object-fit: cover;
+    width: 100%;
   }
 }
 
