@@ -31,7 +31,7 @@ One extra benefit of the website source being on [GitHub](https://github.com/req
 
 We have the new website in place, but there might still be a few glitches. If you find any, please let me know or submit them to the [GitHub issues](https://github.com/reqnroll/reqnroll.github.io/issues) of the website project.
 
-My plan is to migrate the posts from the [Announcements topic](https://github.com/orgs/reqnroll/discussions/categories/announcements) of the GitHub discussions as news posts here so that we have all news in one place. 
+My plan is to migrate the posts from the [Announcements topic](https://github.com/orgs/reqnroll/discussions/categories/announcements) of the GitHub discussions as news posts [here](https://reqnroll.net/tag/statistics/) so that we have all news in one place. 
 
 I will also migrate the "go.reqnroll.net" and the "schemas.reqnroll.net" sites as well, but these are much easier anyway.
 
