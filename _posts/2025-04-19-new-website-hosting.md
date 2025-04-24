@@ -13,7 +13,7 @@ The Reqnroll website "reqnroll.net" has been moved to a new host. It is now host
 
 <!-- more -->
 
-A year ago, when I [started with the Reqnroll project](2024-02-08-from-specflow-to-reqnroll-why-and-how.md), many things were unclear. I spent most of my time applying the code changes required for the "fork", but quickly realized that we would also need a website of some kind. I took the route that seemed to be the easiest and cheapest at that time. Since I had some WordPress experience and [my company](https://specsolutions.eu) already had a hosting service, the simplest thing was to set up another WordPress site at the same hosting provider. 
+A year ago, when I [started with the Reqnroll project]({{ site.url }}/news/2024/02/from-specflow-to-reqnroll-why-and-how/), many things were unclear. I spent most of my time applying the code changes required for the "fork", but quickly realized that we would also need a website of some kind. I took the route that seemed to be the easiest and cheapest at that time. Since I had some WordPress experience and [my company](https://specsolutions.eu) already had a hosting service, the simplest thing was to set up another WordPress site at the same hosting provider. 
 
 I found a suitable theme, one from [KORTEZ](https://kortezthemes.com/kortez-fse/), that was easy to apply. When you need to get all the little details correct, time flies quickly, but altogether I got something running with reasonable effort.
 
