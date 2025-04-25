@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-relative-links
 
 include: ['_pages']
 permalink: pretty
@@ -51,6 +52,11 @@ social:
     - https://github.com/reqnroll
     - https://www.linkedin.com/company/reqnroll/
     - https://twitter.com/ReqnrollBdd
+
+# Allow using .md files as link target, see https://github.com/benbalter/jekyll-relative-links
+relative_links:
+  enabled:     true
+  collections: true
 
 # Pagination, see https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
 pagination:

@@ -13,7 +13,7 @@ The Reqnroll website "reqnroll.net" has been moved to a new host. It is now host
 
 <!-- more -->
 
-A year ago, when I [started with the Reqnroll project]({{ site.url }}/news/2024/02/from-specflow-to-reqnroll-why-and-how/), many things were unclear. I spent most of my time applying the code changes required for the "fork", but quickly realized that we would also need a website of some kind. I took the route that seemed to be the easiest and cheapest at that time. Since I had some WordPress experience and [my company](https://specsolutions.eu) already had a hosting service, the simplest thing was to set up another WordPress site at the same hosting provider. 
+A year ago, when I [started with the Reqnroll project](2024-02-08-from-specflow-to-reqnroll-why-and-how.md), many things were unclear. I spent most of my time applying the code changes required for the "fork", but quickly realized that we would also need a website of some kind. I took the route that seemed to be the easiest and cheapest at that time. Since I had some WordPress experience and [my company](https://specsolutions.eu) already had a hosting service, the simplest thing was to set up another WordPress site at the same hosting provider. 
 
 I found a suitable theme, one from [KORTEZ](https://kortezthemes.com/kortez-fse/), that was easy to apply. When you need to get all the little details correct, time flies quickly, but altogether I got something running with reasonable effort.
 
@@ -31,7 +31,7 @@ One extra benefit of the website source being on [GitHub](https://github.com/req
 
 We have the new website in place, but there might still be a few glitches. If you find any, please let me know or submit them to the [GitHub issues](https://github.com/reqnroll/reqnroll.github.io/issues) of the website project.
 
-My plan is to migrate the posts from the [Announcements topic](https://github.com/orgs/reqnroll/discussions/categories/announcements) of the GitHub discussions as news posts [here](https://reqnroll.net/tag/statistics/) so that we have all news in one place. 
+My plan is to migrate the posts from the [Announcements topic](https://github.com/orgs/reqnroll/discussions/categories/announcements) of the GitHub discussions as news posts [here]({{ site.url }}/tag/statistics/) so that we have all news in one place. 
 
 I will also migrate the "go.reqnroll.net" and the "schemas.reqnroll.net" sites as well, but these are much easier anyway.
 
@@ -41,4 +41,4 @@ Most importantly, I can get back to coding topics and help with bug fixes and pu
 
 The new structure also allows easier contributions for website content, like blog posts or news entries. If you feel like you have a good topic to share, please contact me on [Discord](https://go.reqnroll.net/discord-invite) or send a note to the [website GitHub project](https://github.com/reqnroll/reqnroll.github.io/issues).
 
-Maybe the new website will also encourage potential sponsors to [support our project]({{ site.url }}/sponsorship).
+Maybe the new website will also encourage potential sponsors to [support our project](../_pages/sponsorship.md).
