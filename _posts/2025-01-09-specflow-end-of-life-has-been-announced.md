@@ -4,7 +4,7 @@ title: "SpecFlow end-of-life has been announced"
 date: 2025-01-09
 categories: News
 tags: LivingDoc Migration OpenSource SpecFlow
-image: 2025/SF_dead.png
+image: assets/images/2025/SF_dead.png
 image_caption: "Screenshot from the specflow.org website"
 author: gasparnagy
 ---

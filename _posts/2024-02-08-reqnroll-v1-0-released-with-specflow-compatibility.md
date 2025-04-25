@@ -4,7 +4,7 @@ title: "Reqnroll v1.0 released with SpecFlow compatibility"
 date: 2024-02-08
 categories: News
 tags: Release
-image: 2024/announcement-oscar-keys-ojVMh1QTVGY-unsplash.jpg
+image: assets/images/2024/announcement-oscar-keys-ojVMh1QTVGY-unsplash.jpg
 image_caption: "Photo by Oscar Key on Unsplash.com"
 author: gasparnagy
 ---

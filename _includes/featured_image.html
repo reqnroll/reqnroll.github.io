@@ -1,7 +1,7 @@
 {%- if page.image %}
 <figure class="featured-image">
   <img 
-    src="{{ page.image | prepend: '/assets/images/' | relative_url }}" alt="Featured image for post '{{ page.title | escape }}'" 
+    src="{{ page.image | prepend: '/' | relative_url }}" alt="Featured image for post '{{ page.title | escape }}'" 
     decoding="async" 
     fetchpriority="high"/>
     {%- if page.image_caption %}

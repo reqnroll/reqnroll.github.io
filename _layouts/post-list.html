@@ -24,7 +24,7 @@ pagination:
             style="height:200px">
             {% if post.image %}
               <img 
-                src="{{ post.image | prepend: '/assets/images/' | relative_url }}"
+                src="{{ post.image | prepend: '/' | relative_url }}"
                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                 alt="{{ post.title }}" style="border-radius:5px;height:200px;object-fit:cover;">
             {% else %}

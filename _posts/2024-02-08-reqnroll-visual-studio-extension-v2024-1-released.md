@@ -4,7 +4,7 @@ title: "Reqnroll Visual Studio Extension v2024.1 released"
 date: 2024-02-08
 categories: News
 tags: Release SpecFlow VisualStudio
-image: 2024/backstage-jessie-mccall-2vfKU3bm8xM-unsplash.jpg
+image: assets/images/2024/backstage-jessie-mccall-2vfKU3bm8xM-unsplash.jpg
 image_caption: "Photo by Jesse McCall on Unsplash.com"
 author: gasparnagy
 ---

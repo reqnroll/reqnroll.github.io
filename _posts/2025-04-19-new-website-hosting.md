@@ -4,7 +4,7 @@ title: "New Website Hosting"
 date: 2025-04-19
 categories: News
 tags: website sponsorship
-image: 2025/markus-winkler-Vagh0KcwvwQ-unsplash-1024.webp
+image: assets/images/2025/markus-winkler-Vagh0KcwvwQ-unsplash-1024.webp
 image_caption: "Photo by Markus Winkler on Unsplash"
 author: gasparnagy
 ---
