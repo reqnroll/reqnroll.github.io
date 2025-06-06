@@ -5,7 +5,7 @@
     decoding="async" 
     fetchpriority="high"/>
     {%- if page.image_caption %}
-    <figcaption class="overlay-caption">{{ page.image_caption }}</figcaption>
+    <figcaption class="overlay-caption" {%- if page.image_caption_style %}style="{{ page.image_caption_style }}"{%- endif %}>{{ page.image_caption }}</figcaption>
     {%- endif %}
 </figure>
 {%- endif %}
