@@ -20,7 +20,7 @@ Native HTML report generation is coming in V3! This will work out of the box, wi
 
 The V2 versions of Reqnroll focused on stabilizing the Reqnroll codebase and the test execution workflow. The SpecFlow codebase [was forked at version v4-beta](2024-02-08-from-specflow-to-reqnroll-why-and-how.md). That version was never officially released and therefore was only used by a few SpecFlow projects. It contained many changes, especially related to asynchronous execution of tests. This was a significant change affecting many aspects of execution, and because it was only tried by a limited set of users, it was not "battle tested." We could say that Reqnroll V2 is the "proper SpecFlow v4" release.
 
-Another important and outstanding need that we inherited from SpecFlow was to clean up the execution workflow. Probably the most notable element of that was supporting test-level parallelization, but in the background we also had to redesign the entire resource handling, hook execution, and error handling infrastructure.
+Another important and outstanding need that we inherited from SpecFlow was to clean up the execution workflow. Probably the most notable element of that was supporting scenario-level parallelization, but in the background we also had to redesign the entire resource handling, hook execution, and error handling infrastructure.
 
 ## V3 is about SpecFlow ecosystem parity
 
@@ -30,7 +30,7 @@ This has been a pain point for many users, because LivingDoc Generator was the g
 
 Although there are alternative solutions for generating HTML reports (notably [Allure Report](https://allurereport.org/), one of the most popular open-source reporting tools, which was one of the first to integrate with Reqnroll), we felt that we needed to provide a built-in solution as well.
 
-Our strategy has been to adopt the concept of "Cucumber Messages" from the Cucumber tool family. Cucumber Messages is basically a standardized file format that can capture all execution details of a BDD framework, including step or hook executions and attachments. Our idea was that if we were able to provide a Cucumber Messages report, we would open up visualization possibilities that have already been available to Cucumber tools. We cannot talk about this feature without mentioning [Chris Rudolphi](https://github.com/clrudolphi), who made an incredible effort to bring this strategy to reality. Thank you, Chris!
+Our strategy has been to adopt the concept of "Cucumber Messages" from the Cucumber tool family. Cucumber Messages is basically a standardized file format that can capture all execution details of a BDD framework, including step or hook executions and attachments. Our idea was that if we were able to provide a Cucumber Messages report, we would open up visualization possibilities that have already been available to Cucumber tools. We cannot talk about this feature without mentioning the project contributors, who made an incredible effort to bring this strategy to reality. Thank you!
 
 While V3 will contain many other interesting updates, most importantly, it will include the first version of our native Reqnroll HTML report generation! With this step, we will finally reach parity with the SpecFlow ecosystem.
 
@@ -38,7 +38,7 @@ While V3 will contain many other interesting updates, most importantly, it will 
 
 While this is still in the beta phase, I would like to share some details about Reqnroll HTML report generation. The beta phase in this case means that the code has been implemented and is working, but we are in the middle of the review process and making some small fixes.
 
-As mentioned above, our strategy was to be able to produce Cucumber Messages so that we could use existing tooling to turn that into HTML. We were aware of the [Cucumber React Components](https://github.com/cucumber/react-components) project, which provides HTML visualization for Cucumber Messages, but in the end, we found another important open-source component, [Cucumber HTML Formatter](https://github.com/cucumber/html-formatter/), which provides an end-to-end wrapper for producing a complete HTML report from Cucumber Messages. Exactly what we needed!
+As mentioned above, our strategy was to be able to produce Cucumber Messages so that we could use existing tooling to turn that into HTML. We were aware of the [Cucumber React Components](https://github.com/cucumber/react-components) project, which provides HTML visualization for Cucumber Messages, but in the end, we found another important open-source component, [Cucumber HTML Formatter](https://github.com/cucumber/html-formatter/), which provides an end-to-end wrapper of the `react-components` for producing a complete HTML report from Cucumber Messages. Exactly what we needed!
 
 Have you heard of "Cucumber Formatters"? That is a feature and extensibility point in Cucumber tools that can be used to produce reports, outputs, or other results in a specific format. Since Cucumber started as a command-line tool, the concept of formatters has existed there for a long time — basically, when you executed Cucumber, it was a formatter that produced the console output and another formatter that generated the test result JSON file. As SpecFlow/Reqnroll has been executed by the .NET test execution hosts (e.g., `dotnet test` or *Visual Studio Test Explorer*), we had not implemented this particular concept before.
 
@@ -80,11 +80,9 @@ After V3, we will not stop, but continue with further structural changes that wi
 
 For V4, we will also review the range of different targets we support and deprecate those that require high maintenance costs and are not broadly used. The support for adding feature files to VB.NET projects is one candidate for deprecation.
 
-*.NET Framework 4.8* is currently being used by [almost 10% of projects](2025-06-06-monthly-stats-2025-05.md), so we will need to provide support for that, but we still have to decide what is the best approach. To support *.NET Framework*, we need to keep the codebase at *.NET Standard 2.0* compatibility and cannot utilize features provided by *.NET 5* and later frameworks.
-
 ## TUnit and xUnit V3 support coming too
 
-There are also two new unit test frameworks we plan to support: TUnit and xUnit V3. As these are additional features and not breaking changes, they can probably be included as updates for V3.
+There are also two new unit test frameworks we plan to support: TUnit and xUnit v3. As these are additional features and not breaking changes, they can probably be included as a minor update of Reqnroll V3.
 
 ## Your feedback counts
 
