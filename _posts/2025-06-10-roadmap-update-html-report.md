@@ -12,6 +12,8 @@ author: gasparnagy
 
 We released the last update for our V2 line in April, and then jumped into preparing for the next major release: V3. On this occasion, I would like to share some updates on our roadmap and some good news about the HTML report.
 
+<!--more-->
+
 ## TL;DR
 
 Native HTML report generation is coming in V3! This will work out of the box, without additional conversion tools, and will be free and open source!
