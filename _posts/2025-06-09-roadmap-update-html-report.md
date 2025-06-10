@@ -42,7 +42,7 @@ As mentioned above, our strategy was to be able to produce Cucumber Messages so 
 
 Have you heard of "Cucumber Formatters"? That is a feature and extensibility point in Cucumber tools that can be used to produce reports, outputs, or other results in a specific format. Since Cucumber started as a command-line tool, the concept of formatters has existed there for a long time — basically, when you executed Cucumber, it was a formatter that produced the console output and another formatter that generated the test result JSON file. As SpecFlow/Reqnroll has been executed by the .NET test execution hosts (e.g., `dotnet test` or *Visual Studio Test Explorer*), we had not implemented this particular concept before.
 
-During the implementation of the Cucumber Messages output, we realized that what we were doing was essentially the same as what Cucumber calls "formatters," so we (better to say Chris) reframed our solution and implemented the formatter concept from Cucumber into Reqnroll.
+During the implementation of the Cucumber Messages output, we realized that what we were doing was essentially the same as what Cucumber calls "formatters," so we reframed our solution and implemented the formatter concept from Cucumber into Reqnroll.
 
 And if we have formatters in Reqnroll, then we can implement the Cucumber Messages output as one formatter and the HTML output as another! That means we will not need any additional tool to convert Cucumber Messages to HTML (as was needed for "SpecFlow+ LivingDoc Generator"), but it will generate the HTML file out of the box! Yes, even if you run the tests from Visual Studio!
 
