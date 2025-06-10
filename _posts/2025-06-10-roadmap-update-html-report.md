@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Roadmap update: HTML report comes next"
-date: 2025-06-09
+date: 2025-06-10
 categories: News
 tags: Release Roadmap LivingDoc
 image: assets/images/2025/reqnroll_html_report_header.webp
