@@ -114,4 +114,5 @@ sass:
 
 exclude:
   - README.md
+  - CONTRIBUTING.md
   - LICENSE
