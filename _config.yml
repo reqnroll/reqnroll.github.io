@@ -45,7 +45,7 @@ defaults:
 seo_paginator_message: ''
 twitter:
   username: ReqnrollBdd
-logo: /assets/images/reqnroll-logo-130x48-1.png
+logo: /assets/images/reqnroll-logo-130x48.png
 social:
   name: Reqnroll
   links:

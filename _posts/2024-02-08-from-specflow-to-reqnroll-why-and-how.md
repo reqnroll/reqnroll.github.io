@@ -5,7 +5,7 @@ date: 2024-02-08
 modified_date: 2024-02-16
 categories: News
 tags: Migration OpenSource SpecFlow VisualStudio
-image: assets/images/reqnroll-logo-bubbles.jpg
+image: assets/images/reqnroll-logo-bubbles.webp
 author: gasparnagy
 ---
 
