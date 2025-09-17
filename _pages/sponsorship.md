@@ -32,6 +32,10 @@ We are thankful to our sponsors who support the Reqnroll open-source project. Re
 <figure class="wp-block-image size-medium"><a href="https://www.infosupport.com/"><img decoding="async" width="300" height="100" src="{{ site.url }}/assets/images/infosupport-logo-300x100.webp" alt="Info Support sponsors Reqnroll by $200 / mo" class="wp-image-318" title="Info Support sponsors Reqnroll by $200 / mo" /></a><figcaption class="wp-element-caption"><strong><a href="https://www.infosupport.com/">Info Support</a></strong> sponsors Reqnroll by $200 / mo</figcaption></figure>
 </div>
 
+<div class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-is-layout-6 wp-block-group-is-layout-flex">
+<figure class="wp-block-image size-medium"><a href="https://www.lambdatest.com/"><img decoding="async" width="300" height="100" src="{{ site.url }}/assets/images/lambdatest-logo-300x130.png" alt="LambdaTest sponsors Reqnroll by $50 / mo" class="wp-image-318" title="Info Support sponsors Reqnroll by $200 / mo" /></a><figcaption class="wp-element-caption"><strong><a href="https://www.lambdatest.com/">LambdaTest</a></strong> sponsors Reqnroll by $50 / mo</figcaption></figure>
+</div>
+
 
 
 <h3 class="wp-block-heading has-text-align-center" id="supporters">Supporters</h3>
