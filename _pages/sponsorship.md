@@ -10,7 +10,7 @@ We are thankful to our sponsors who support the Reqnroll open-source project. Re
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<figure class="wp-block-image aligncenter size-medium"><a href="https://www.specsolutions.eu/"><img decoding="async" width="300" height="72" src="{{ site.url }}/assets/images/SpecSolution-logo-600-300x72.png" alt="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" class="wp-image-314" style="object-fit:cover" title="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" srcset="{{ site.url }}/assets/images/SpecSolution-logo-600-300x72.png 300w, {{ site.url }}/assets/images/SpecSolution-logo-600.png 600w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
+<figure class="wp-block-image aligncenter size-medium"><a href="https://www.specsolutions.eu/"><img decoding="async" width="300" height="100" src="{{ site.url }}/assets/images/specsolutions-logo-300x100.webp" alt="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" class="wp-image-314" style="object-fit:cover" title="Spec Solutions sponsors Reqnroll by providing at least 20h of work per month by Gáspár and hosts the website" /></a></figure>
 </div>
 
 <div class="wp-block-column is-vertically-aligned-bottom is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
@@ -29,7 +29,7 @@ We are thankful to our sponsors who support the Reqnroll open-source project. Re
 
 
 <div class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-is-layout-6 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-medium"><a href="https://www.infosupport.com/"><img decoding="async" width="300" height="100" src="{{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-300x100.png" alt="Info Support sponsors Reqnroll by $200 / mo" class="wp-image-318" title="Info Support sponsors Reqnroll by $200 / mo" srcset="{{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-300x100.png 300w, {{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-1024x341.png 1024w, {{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-768x256.png 768w, {{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-1536x512.png 1536w, {{ site.url }}/assets/images/Info-Support-30cm-300DPI-PNG-2048x683.png 2048w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption class="wp-element-caption"><strong><a href="https://www.infosupport.com/">Info Support</a></strong> sponsors Reqnroll by $200 / mo</figcaption></figure>
+<figure class="wp-block-image size-medium"><a href="https://www.infosupport.com/"><img decoding="async" width="300" height="100" src="{{ site.url }}/assets/images/infosupport-logo-300x100.webp" alt="Info Support sponsors Reqnroll by $200 / mo" class="wp-image-318" title="Info Support sponsors Reqnroll by $200 / mo" /></a><figcaption class="wp-element-caption"><strong><a href="https://www.infosupport.com/">Info Support</a></strong> sponsors Reqnroll by $200 / mo</figcaption></figure>
 </div>
 
 
