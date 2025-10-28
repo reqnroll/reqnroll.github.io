@@ -3,7 +3,7 @@ layout: post
 title: "Free Reqnroll video tutorial by Bas Dijkstra"
 date: 2025-10-28
 categories: News
-tags: tutorial learning
+tags: tutorial bdd learning
 image: assets/images/2025/reqnroll-tutorial-bas-dijkstra.webp
 image_caption: "Screen capture from the Reqnroll video tutorial by Bas Dijkstra"
 author: gasparnagy

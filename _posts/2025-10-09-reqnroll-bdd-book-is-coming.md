@@ -3,7 +3,7 @@ layout: post
 title: "Reqnroll BDD book is coming: Effective Behavior-Driven Development"
 date: 2025-10-09
 categories: News
-tags: book bdd
+tags: book bdd learning
 image: assets/images/2025/effective-behavior-driven-development-meap.webp
 image_caption: "Effective Behavior-Driven Development book cover"
 author: gasparnagy
