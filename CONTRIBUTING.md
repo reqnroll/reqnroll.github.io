@@ -21,3 +21,5 @@ In order to test your changes, there are multiple options:
 * Build the site once
   * Invoke `bundle exec jekyll build`
   * The generated site is in the `_site` folder
+
+In order to create draft posts, you can find ideas in [this article by Fizer Khan](https://www.fizerkhan.com/blog/posts/working-with-upcoming-posts-in-jekyll). You can force displaying future posts with the `--future` flag (e.g. `bundle exec jekyll serve --livereload --future`).
