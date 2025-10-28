@@ -1,0 +1,1 @@
+The free cookie consent is provided by https://silktide.com/consent-manager/
