@@ -182,6 +182,14 @@ body {
   }
 }
 
+.site-warning {
+  background-color: var(--reqnroll-dark);
+  color: var(--reqnroll-light);
+  padding: var(--wp--preset--spacing--small);
+  text-align: center;
+  font-weight: var(--wp--custom--font-weight--bold);
+}
+
 /* overrides for content types */
 
 .post {

@@ -1,6 +1,13 @@
 /* Global Variables */
 
 :root {
+
+  --reqnroll-yellow: #c4d600;
+  --reqnroll-black: #11111f;
+  --reqnroll-dark: #3b4000;
+  --reqnroll-light: #f6f9d9;
+  --reqnroll-darker-yellow: #adc000;
+
   --wp-admin-theme-color: #007cba;
   --wp-admin-theme-color--rgb: 0, 124, 186;
   --wp-admin-theme-color-darker-10: #006ba1;
@@ -34,15 +41,15 @@
   --wp--preset--color--pale-cyan-blue: #8ed1fc;
   --wp--preset--color--vivid-cyan-blue: #0693e3;
   --wp--preset--color--vivid-purple: #9b51e0;
-  --wp--preset--color--primary: #c4d600;
+  --wp--preset--color--primary: var(--reqnroll-yellow);
   --wp--preset--color--secondary: #fd5d47;
-  --wp--preset--color--accent: #c4d600;
+  --wp--preset--color--accent: var(--reqnroll-yellow);
   --wp--preset--color--accent-text: #ffffff;
-  --wp--preset--color--hover: #adc000;
+  --wp--preset--color--hover: var(--reqnroll-darker-yellow);
   --wp--preset--color--heading: #090809;
   --wp--preset--color--highlight: #4B5563;
-  --wp--preset--color--body: #11111f;
-  --wp--preset--color--surface: #f6f9d9;
+  --wp--preset--color--body: var(--reqnroll-black);
+  --wp--preset--color--surface: var(--reqnroll-light);
   --wp--preset--color--background: #FFFFFF;
   --wp--preset--color--light: #ebeefc;
   --wp--preset--color--outline: #E5E7EB;

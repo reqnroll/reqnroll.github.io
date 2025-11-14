@@ -4,6 +4,11 @@
   {%- include head.html -%}
 
   <body>
+	  {%- if site.site_warning -%}
+    <div class="site-warning">
+      {{ site.site_warning }}
+    </div>
+	  {%- endif -%}
 
     {%- include header.html -%}
 

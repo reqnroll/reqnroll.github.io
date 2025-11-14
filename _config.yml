@@ -21,6 +21,8 @@ github_username:  reqnroll
 linkedin_username: reqnroll
 google_analytics: G-Y2KPXR5RYB
 
+# site_warning: "This is a sample site-wide warning. Uncomment to make it visible. See <a href='https://some-url' target='_blank'>note</a>."
+
 # Build settings
 
 theme: minima
