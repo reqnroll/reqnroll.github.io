@@ -21,7 +21,7 @@ github_username:  reqnroll
 linkedin_username: reqnroll
 google_analytics: G-Y2KPXR5RYB
 
-site_warning: "MsBuild issue affects Reqnroll projects that use .NET 9.0.307 or .NET 8.0.416 causing MSB4216 errors. See <a href='https://github.com/orgs/reqnroll/discussions/928' target='_blank'>note</a>."
+# site_warning: "MsBuild issue affects Reqnroll projects that use .NET 9.0.307 or .NET 8.0.416 causing MSB4216 errors. See <a href='https://github.com/orgs/reqnroll/discussions/928' target='_blank'>note</a>."
 
 # Build settings
 
