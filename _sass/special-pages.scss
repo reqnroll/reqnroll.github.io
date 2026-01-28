@@ -1,0 +1,17 @@
+.silver-sponsor-block {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+
+  figure {
+    margin: 0 0 1em;
+
+    figcaption {
+      color: #555;
+      font-size: 13px;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+  }
+}
