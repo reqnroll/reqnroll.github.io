@@ -33,7 +33,7 @@ We are thankful to our sponsors who support the Reqnroll open-source project. Re
 </div>
 
 <div class="silver-sponsor-block">
-<figure><a href="https://www.testmuai.com/"><img decoding="async" width="300" height="100" src="{{ site.url }}/assets/images/testmuai-logo-300x100.webp" alt="TestMu AI sponsors Reqnroll by $50 / mo" title="Info Support sponsors Reqnroll by $200 / mo" /></a><figcaption><strong><a href="https://www.testmuai.com/">TestMu AI</a></strong> (formerly LambdaTest) sponsors Reqnroll by $50 / mo</figcaption></figure>
+<figure><a href="https://www.testmuai.com/?utm_medium=sponsor&utm_source=reqnroll"><img decoding="async" width="300" height="100" src="{{ site.url }}/assets/images/testmuai-logo-300x100.webp" alt="TestMu AI sponsors Reqnroll by $50 / mo" title="TestMu AI sponsors Reqnroll by $50 / mo" /></a><figcaption><strong><a href="https://www.testmuai.com/?utm_medium=sponsor&utm_source=reqnroll">TestMu AI</a></strong> (formerly LambdaTest) sponsors Reqnroll by $50 / mo</figcaption></figure>
 </div>
 
 
