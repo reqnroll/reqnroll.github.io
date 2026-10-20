@@ -13,7 +13,7 @@ author: gasparnagy
 
 <!--more-->
 
-Until now, Reqnroll IDE support has been centered on separate integrations, while VS Code users relied on limited Gherkin support from the Cucumber extension. The new [Reqnroll IDE Support](https://github.com/reqnroll/Reqnroll.IdeSupport/tree/main/docs/site/ide-support) brings native Reqnroll support to VS Code and a refreshed experience to Visual Studio and Rider.
+Until now, Reqnroll IDE support has been centered on separate integrations, while VS Code users relied on limited Gherkin support from the Cucumber extension. The new [Reqnroll IDE Support](https://docs.reqnroll.net/latest/ide-support/) brings native Reqnroll support to VS Code and a refreshed experience to Visual Studio and Rider.
 
 This is a **preview**, provided alongside the existing integrations—not a forced migration. In Visual Studio and Rider, you can keep both the preview and current integration installed, but **only enable one at a time** to avoid conflicting editor features. In VS Code, the Reqnroll extension replaces the previous recommendation to use the generic Cucumber plugin. Try the new support and switch back if it does not yet fit your workflow. As the preview matures, our plan is for it to replace the current integrations.
 
@@ -25,31 +25,31 @@ Our primary goal was to provide a consistent Reqnroll experience across all thre
 
 ### Native Reqnroll support in VS Code
 
-VS Code now has its own Reqnroll extension, rather than relying on the generic Cucumber plugin for limited `.feature` file support. It provides Reqnroll-aware [syntax highlighting](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/syntax-highlighting.md), diagnostics, completion, navigation, and refactoring, and discovers project membership from your project files without manual Cucumber glob settings. See the [installation guide](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/installation/index.md) to get started.
+VS Code now has its own Reqnroll extension, rather than relying on the generic Cucumber plugin for limited `.feature` file support. It provides Reqnroll-aware [syntax highlighting](https://docs.reqnroll.net/latest/ide-support/editing-features/syntax-highlighting.html), diagnostics, completion, navigation, and refactoring, and discovers project membership from your project files without manual Cucumber glob settings. See the [installation guide](https://docs.reqnroll.net/latest/ide-support/installation/index.html) to get started.
 
 ### See step status as you work—without a build
 
-Step status updates as you edit. Add or change a step definition and the related steps in your feature files reflect the change in their coloring—without needing to build the project or reopen the files. Unmatched steps are easy to spot, and their status updates when a matching binding is added. Learn more about [live highlighting](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/syntax-highlighting.md) and [diagnostics](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/diagnostics.md).
+Step status updates as you edit. Add or change a step definition and the related steps in your feature files reflect the change in their coloring—without needing to build the project or reopen the files. Unmatched steps are easy to spot, and their status updates when a matching binding is added. Learn more about [live highlighting](https://docs.reqnroll.net/latest/ide-support/editing-features/syntax-highlighting.html) and [diagnostics](https://docs.reqnroll.net/latest/ide-support/editing-features/diagnostics.html).
 
 ### Understand step and hook usage at a glance
 
-[Code Lens annotations](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/code-lens.md) show how many feature-file steps use a step definition, which hooks apply to a feature or scenario, and which scenarios a hook matches. Follow an annotation to inspect the matching steps or hooks and navigate to the relevant code.
+[Code Lens annotations](https://docs.reqnroll.net/latest/ide-support/editing-features/code-lens.html) show how many feature-file steps use a step definition, which hooks apply to a feature or scenario, and which scenarios a hook matches. Follow an annotation to inspect the matching steps or hooks and navigate to the relevant code.
 
 ### Run scenarios from feature files
 
-Run scenarios directly from a feature file, and debug them where the IDE integration supports it—without first hunting for the generated test method. Visual Studio and Rider provide Reqnroll Run/Debug actions on scenarios. In VS Code, scenario execution is available through the C# Dev Kit’s Test Explorer and CodeLens on the generated test. See the [running scenarios guide](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/running-scenarios.md) for IDE-specific details.
+Run scenarios directly from a feature file, and debug them where the IDE integration supports it—without first hunting for the generated test method. Visual Studio and Rider provide Reqnroll Run/Debug actions on scenarios. In VS Code, scenario execution is available through the C# Dev Kit’s Test Explorer and CodeLens on the generated test. See the [running scenarios guide](https://docs.reqnroll.net/latest/ide-support/running-scenarios.html) for IDE-specific details.
 
 ### Rename steps, including parameterized steps
 
-Rename a step from the feature file or its binding and update its occurrences across your project. The improved rename support also handles parameterized steps, so changing a step’s wording does not leave matching usages behind. See the [Rename Step guide](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/rename-step.md).
+Rename a step from the feature file or its binding and update its occurrences across your project. The improved rename support also handles parameterized steps, so changing a step’s wording does not leave matching usages behind. See the [Rename Step guide](https://docs.reqnroll.net/latest/ide-support/editing-features/rename-step.html).
 
 ### Navigate large feature files
 
-Use IDE [outline and structure views](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/document-outline.md) to see a feature’s hierarchy and jump directly to a scenario or step. Reqnroll also makes it easier to move between feature steps, their definitions, and hooks with [navigation features](https://github.com/reqnroll/Reqnroll.IdeSupport/tree/main/docs/site/ide-support/navigation-features). Outline availability varies by IDE: VS Code and supported Rider versions provide a feature-file outline.
+Use IDE [outline and structure views](https://docs.reqnroll.net/latest/ide-support/editing-features/document-outline.html) to see a feature’s hierarchy and jump directly to a scenario or step. Reqnroll also makes it easier to move between feature steps, their definitions, and hooks with [navigation features](https://docs.reqnroll.net/latest/ide-support/navigation-features.html). Outline availability varies by IDE: VS Code and supported Rider versions provide a feature-file outline.
 
 ## Try the preview
 
-Install the preview for your IDE using the [installation guide](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/installation/index.md), and see the [feature documentation](https://github.com/reqnroll/Reqnroll.IdeSupport/tree/main/docs/site/ide-support) for more details. You can find the current builds and updates on the [Reqnroll.IdeSupport releases page](https://github.com/reqnroll/Reqnroll.IdeSupport/releases).
+Install the preview for your IDE using the [installation guide](https://docs.reqnroll.net/latest/ide-support/installation/index.html), and see the [feature documentation](https://docs.reqnroll.net/latest/ide-support) for more details. You can find the current builds and updates on the [Reqnroll.IdeSupport releases page](https://github.com/reqnroll/Reqnroll.IdeSupport/releases).
 
 Because the preview runs alongside the existing integrations, you can switch back whenever you need to: disable the preview and re-enable your current integration.
 
