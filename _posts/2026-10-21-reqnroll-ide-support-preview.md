@@ -59,4 +59,4 @@ This is an early preview, and your experience will help us shape the future of R
 
 We’re excited to bring a more consistent Reqnroll experience to all three IDEs. Give the preview a try—and help us make it better!
 
-Thank you to all the contributors who helped create this new tool and make it available to the Reqnroll community.
+Reqnroll IDE Support was primarily created by [Chris Rudolphi](https://github.com/clrudolphi)—thank you for leading the development of this new tool. Special thanks to [Thomas Heijtink](https://github.com/ThomasHeijtink) for the inspiration, and to all the contributors who helped bring it to the Reqnroll community.
