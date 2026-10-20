@@ -4,6 +4,8 @@ title: "Introducing Reqnroll IDE Support: one experience across Visual Studio, V
 date: 2026-10-21
 categories: News
 tags: IDE Preview
+image: assets/images/2026/eric-nopanen-8e0EHPUx3Mo-unsplash-1024.webp
+image_caption: "Photo by Eric Nopanen on Unsplash"
 author: gasparnagy
 ---
 
