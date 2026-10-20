@@ -15,6 +15,8 @@ Until now, Reqnroll IDE support has been centered on separate integrations, whil
 
 This is a **preview**, provided alongside the existing integrations—not a forced migration. In Visual Studio and Rider, you can keep both the preview and current integration installed, but **only enable one at a time** to avoid conflicting editor features. In VS Code, the Reqnroll extension replaces the previous recommendation to use the generic Cucumber plugin. Try the new support and switch back if it does not yet fit your workflow. As the preview matures, our plan is for it to replace the current integrations.
 
+{% include figure.html url="/assets/images/2026/reqnroll-ide-support-preview.webp" alt="Reqnroll IDE Support in Visual Studio" description="Reqnroll IDE Support in Visual Studio" %}
+
 ## What’s new
 
 Our primary goal was to provide a consistent Reqnroll experience across all three IDEs, backed by a shared codebase that we can improve and maintain together. Along the way, we’ve also brought in new capabilities and improvements that go beyond simply matching the existing integrations.
