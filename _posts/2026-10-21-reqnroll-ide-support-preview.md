@@ -27,7 +27,7 @@ VS Code now has its own Reqnroll extension, rather than relying on the generic C
 
 ### See step status as you work—without a build
 
-Step status updates as you edit. Add or change a step definition and, as soon as the binding change is saved, the related steps in your feature files reflect the change in their coloring—without needing to build the project or reopen the files. Unmatched steps are easy to spot, and their status updates when a matching binding is added. Learn more about [live highlighting](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/syntax-highlighting.md) and [diagnostics](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/diagnostics.md).
+Step status updates as you edit. Add or change a step definition and the related steps in your feature files reflect the change in their coloring—without needing to build the project or reopen the files. Unmatched steps are easy to spot, and their status updates when a matching binding is added. Learn more about [live highlighting](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/syntax-highlighting.md) and [diagnostics](https://github.com/reqnroll/Reqnroll.IdeSupport/blob/main/docs/site/ide-support/editing-features/diagnostics.md).
 
 ### Understand step and hook usage at a glance
 
