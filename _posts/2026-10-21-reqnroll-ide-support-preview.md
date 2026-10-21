@@ -11,6 +11,8 @@ author: gasparnagy
 
 **Reqnroll IDE Support is now available in preview for Visual Studio, Visual Studio Code, and JetBrains Rider. It brings Reqnroll-aware editing to all three IDEs, with a consistent set of modern features—and we’d love for you to try it and tell us what you think.**
 
+The Visual Studio Code and Rider extensions work on Windows, macOS, and Linux.
+
 <!--more-->
 
 Until now, Reqnroll IDE support has been centered on separate integrations, while VS Code users relied on limited Gherkin support from the Cucumber extension. The new [Reqnroll IDE Support](https://docs.reqnroll.net/latest/ide-support/) brings native Reqnroll support to VS Code and a refreshed experience to Visual Studio and Rider.
