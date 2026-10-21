@@ -3,7 +3,7 @@ layout: post
 title: "Introducing Reqnroll IDE Support: one experience across Visual Studio, VS Code and Rider"
 date: 2026-10-21
 categories: News
-tags: IDE Preview
+tags: Release VisualStudio VSCode Rider IDE
 image: assets/images/2026/eric-nopanen-8e0EHPUx3Mo-unsplash-1024.webp
 image_caption: "Photo by Eric Nopanen on Unsplash"
 author: gasparnagy
@@ -47,7 +47,7 @@ Rename a step from the feature file or its binding and update its occurrences ac
 
 ### Navigate large feature files
 
-Use IDE [outline and structure views](https://docs.reqnroll.net/latest/ide-support/editing-features/document-outline.html) to see a feature’s hierarchy and jump directly to a scenario or step. Reqnroll also makes it easier to move between feature steps, their definitions, and hooks with [navigation features](https://docs.reqnroll.net/latest/ide-support/navigation-features.html). Outline availability varies by IDE: VS Code and supported Rider versions provide a feature-file outline.
+Use IDE [outline and structure views](https://docs.reqnroll.net/latest/ide-support/editing-features/document-outline.html) to see a feature’s hierarchy and jump directly to a scenario or step. Reqnroll also makes it easier to move between feature steps, their definitions, and hooks with [navigation features](https://docs.reqnroll.net/latest/ide-support/navigation-features/index.html). Outline availability varies by IDE: VS Code and supported Rider versions provide a feature-file outline.
 
 ## Try the preview
 
